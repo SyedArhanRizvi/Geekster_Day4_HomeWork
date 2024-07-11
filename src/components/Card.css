@@ -1,0 +1,58 @@
+.cardStyle{
+    width: 60vw;
+    height: 25vw;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -15px -3px 117px 3px rgba(132,65,65,1);
+    -webkit-box-shadow: -15px -3px 117px 3px rgba(132,65,65,1);
+    -moz-box-shadow: -15px -3px 117px 3px rgba(132,65,65,1);
+}
+.cardStyle .c1{
+    height: 100%;
+    width: 70%;
+    background: black;
+    box-shadow: 99px 1px 35px 15px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 99px 1px 35px 15px rgba(0,0,0,0.66);
+    -moz-box-shadow: 99px 1px 35px 15px rgba(0,0,0,0.66);
+    /* overflow: hidden; */
+    z-index: 500;
+    padding: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 120px; */
+    gap: 50px;
+}
+.cardStyle .c1 .movie{
+    /* border: 2px solid white; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 30%; */
+    gap: 10px;
+}
+.cardStyle .c1 .movie .img{
+        height: 130px;
+        width: 100px;
+        background: white;
+}
+.cardStyle .c1 .about{
+    /* border: 2px solid wheat; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+.cardStyle .c2{
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    /* background: red; */
+}
